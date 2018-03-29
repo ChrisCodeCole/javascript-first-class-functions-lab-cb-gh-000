@@ -7,5 +7,6 @@ function createMultiplier(multiplierValue){
     value * multiplierValue;
   }
 }
-var doubler = createMultiplier(2, value);
-var tripler = createMultiplier(3, value);
+
+var doubler = createMultiplier(2);
+var tripler = createMultiplier(3);
