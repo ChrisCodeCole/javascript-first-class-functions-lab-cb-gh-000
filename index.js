@@ -4,7 +4,7 @@ function countdown(secondFunction){
 
 function createMultiplier(multiplierValue){
   return function(value){
-    value * multiplierValue;
+    return value * multiplierValue;
   }
 }
 
