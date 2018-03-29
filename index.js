@@ -2,12 +2,10 @@ function countdown(secondFunction){
   window.setTimeout(secondFunction, 2000);
 }
 
-var doubler;
-var tripler;
-
-function createMultiplier(multiplierValue, ){
-  return function(doubler,tripler){
-    doubler = doubler * 2;
-    tripler = tripler * 3;
+function createMultiplier(multiplierValue, value){
+  return function(value){
+    value * multiplierValue;
   }
 }
+var doubler = createMultiplier(2, value);
+var tripler = createMultiplier(3, value);
