@@ -2,7 +2,7 @@ function countdown(secondFunction){
   window.setTimeout(secondFunction, 2000);
 }
 
-function createMultiplier(multiplierValue, value){
+function createMultiplier(multiplierValue){
   return function(value){
     value * multiplierValue;
   }
